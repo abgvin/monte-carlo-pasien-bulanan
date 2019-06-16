@@ -1,0 +1,74 @@
+.body {
+  background: url(../../assets/images/wheat.png);
+}
+
+
+.home {
+  width: 630px;
+  height: 100%;
+  background: url(../../assets/images/rawkkim-1294993-unsplash.jpg);
+  /* background: url(../../assets/images/john-mark-smith-266552-unsplash.jpg); */
+  background-size: cover;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 0 0 3px rgb(14, 13, 13);
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 10px;
+  transition: 0.4s all;
+}
+
+h2:hover {
+  background: #2b2d2e5e;
+}
+
+h3 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 130px;
+  transition: 0.4s all;
+}
+
+h3:hover {
+  background: #2b2d2e5e;
+  padding: 10px;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  width: 260px;
+  height: 60px;
+  background: #1E88E5;
+  display: block;
+  cursor: pointer;
+  margin: 14px auto;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 0px;
+  transition: 0.7s all;
+}
+
+.btn:hover {
+  background: rgb(52, 72, 92);
+  color: white;
+}
+
+.view:hover {
+  background: #66666d;
+}
+
